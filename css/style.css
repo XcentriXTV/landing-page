@@ -12,7 +12,7 @@ body {
   }
 
   
-  .container {
+.container {
     width: 80%;
     max-width: 1200px;
     margin: 0 auto;
@@ -48,38 +48,38 @@ body {
     color: #F9FAF8;
 }
 
-/* First part of the content style*/
+/* First part of the content style */
 .content-first {
 	padding: 50px 0; 
 	background-color: #1e293b; 
-  }
+}
 
-  .content-first .container {
+.content-first .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
+}
 
-  .text-first {
+  text-first {
     max-width: 45%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-  }
+}
 
-  .text-first h1 {
+.text-first h1 {
     font-size: 36px;
     font-family: 'Roboto Slab', serif;
     margin-bottom: 10px;
     color:#F9FAF8
-  }
+}
 
-  .text-first p {
+.text-first p {
     font-size: 16px;
     font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
     margin-bottom: 20px;
     color: #F9FAF8;
-  }
+}
 
 .signup-button {
     background-color: #3b82f6;
@@ -94,10 +94,10 @@ body {
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 .signup-button:hover {
-	background-color: #2563eb;
-  }
+	background-color: #186df7;
+}
 
-  .image {
+.image {
 	width: 45%;
 	height: 300px;
 	background-color: #475569;
@@ -107,26 +107,26 @@ body {
 	color: #cbd5e1;
 	font-size: 14px;
 	font-family: 'Roboto', Arial, Helvetica, sans-serif; 
-  }
+}
 
-  /* Second part of the content style*/
+/* Second part of the content style */
 
-  .second-content {
+.second-content {
 	background-color: #ffffff;
 	display: flex;
 	padding: 0;
 	margin: 0 auto;
 	width: 100%;
 	padding-bottom: 80px;
-  }
+}
 
-  .second-content > h1 {
+.second-content > h1 {
     display: flex;
 	align-items: center;
 	font-family: 'Roboto', Arial, Helvetica, sans-serif; 
-  }
+}
 
-  .h1-2 {
+.h1-2 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -134,18 +134,18 @@ body {
     padding-top: 50px;
     padding-bottom: 50px;
 
-  }
+}
 
-  h1.h1-2nd {
+h1.h1-2nd {
 	text-align: center;
     margin-bottom: 20px; 
 	font-family: 'Roboto', Arial, Helvetica, sans-serif;
 	font-weight: bold;
 	font-size: 36px #1F2937;
 	font-weight: 900;
-  }
+}
 
-  .boxes {
+.boxes {
     display: flex; 
     justify-content: center; 
     gap: 50px; 
@@ -155,26 +155,26 @@ body {
   .boxes > div {
     text-align: center;
 
-  }
+}
 
-  img {
+img {
     height: 175px;
     width: 175px;
-    border-radius: 9%;
-  }
+    border-radius: 10%;
+}
 
-  .box {
+.box {
     width: 180px;
     height: 180px;
     margin-bottom: 10px;
-    border: 3px solid #2563eb;
-    border-radius: 9%;
+    border: 3px solid #3882f6;
+    border-radius: 10%;
     background-color: rgb(0, 0, 0);
-  }
+}
 
-  /* Third part of the content style*/
+/* Third part of the content style */
 
-  .content-third {
+.content-third {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -182,42 +182,83 @@ body {
     padding-top: 140px;
     padding-bottom: 140px;
     background-color: #E5E7EB ;
-    }
+}
 
-    .quote {
-        font-size: 36px;
-        font-style: italic;
-        color: #595a5b;
-    }
-    .speaker {
-        display:flex;
-        justify-content: flex-end;
-        padding-right: 100px;
-        font-size: 30px;
-        font-weight: bold;
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #595a5b;
+}
+.speaker {
+    display:flex;
+    justify-content: flex-end;
+    padding-right: 100px;
+    font-size: 30px;
+    font-weight: bold;
+}
 
-    }
+/* Fourth part of the content style */
 
+.content-fourth {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
 
+.sign-up {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    background-color: #3882f6;
+    padding: 60px;
+}
 
+.text-fourth {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+}
 
+.text-fourth h1 {
+    display: flex;
+    font-weight: bold;
+}
 
+.second-button {
+    background-color: #3b82f6;
+    font-size: 20px;
+    color: #ffffff;
+    padding: 10px 25px;
+    border-radius: 5px;
+    border: none;
+    outline: 1px solid white;
+    cursor: pointer;
+    font-family: 'Roboto Slap', Arial, Helvetica, sans-serif;
+}
+  
+.second-button:hover {
+    background-color: #186df7
+}
 
+/* Footer section of the style */
 
+.final {
+    color:white;
+    text-align: center;
+}
 
+.footer p {
+    font-size: 16px;
+    font-family: 'Roboto Slap', Arial, Helvetica, sans-serif;
+}
 
+.footer {
+    display: flex;
+    background-color: #1e293b;
+    
+}
 
-
-
-
-
-
-
-
-
-
-  /* Fourth part of the content style*/
-
-  .content-fourth {
-
-  }
